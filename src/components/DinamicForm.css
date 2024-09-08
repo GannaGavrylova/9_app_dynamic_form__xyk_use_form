@@ -1,0 +1,49 @@
+.form_container {
+  border: 2px solid rgb(58, 34, 94);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.first_field,
+.second_field {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_field > label,
+.second_field > label {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20px;
+}
+.first_field > input,
+.second_field > input {
+  width: 300px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.first_field > input:focus,
+.second_field > input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(200, 100, 200, 0.5);
+}
+
+.error-border {
+  border-color: red;
+}
+
+.form_container > button {
+  padding: 10px 20px;
+  margin: 20px;
+  width: 300px;
+  font-size: 22px;
+  background-color: darkblue;
+  color: bisque;
+  border: none;
+  border-radius: 5px;
+}
